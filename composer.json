@@ -1,0 +1,22 @@
+{
+  "name": "keasy9/laravel-composite-pk",
+  "description": "A small Laravel package that allows to use composite primary keys.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "keasy9",
+      "email": "keasy9@gmail.com",
+      "homepage": "https://github.com/keasy9"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "laravel/framework": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Keasy9\\CompositePk\\": "src"
+    }
+  }
+}
